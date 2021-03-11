@@ -19,14 +19,28 @@
 <v t="leo.20200818170041.1"><vh>reveal div</vh>
 <v t="leo.20200818170222.1"><vh>slides div</vh>
 <v t="leo.20200818170328.1"><vh>slide 1</vh></v>
-<v t="leo.20200818170535.1"><vh>slide 2</vh></v>
-<v t="leo.20210310222406.1"><vh>slide 3</vh>
-<v t="leo.20210310225213.1"><vh>slide 3-1</vh></v>
-<v t="leo.20210310225326.1"><vh>slide 3-2</vh></v>
-<v t="leo.20210310230059.1"><vh>slide 3-3</vh></v>
+<v t="leo.20200818170535.1"><vh>slide 2</vh>
+<v t="leo.20210311093655.1"><vh>slide 2-1</vh></v>
+</v>
+<v t="leo.20210310225213.1"><vh>slide 3</vh>
+<v t="leo.20210311093949.1"><vh>slide 3-1</vh></v>
+<v t="leo.20210311093957.1"><vh>slide 3-2</vh></v>
+</v>
+<v t="leo.20210310222406.1"><vh>slide 4</vh>
+<v t="leo.20210310225326.1"><vh>slide 4-1</vh></v>
+<v t="leo.20210311094328.1"><vh>slide 4-2</vh></v>
+<v t="leo.20210311094329.1"><vh>slide 4-3</vh></v>
+<v t="leo.20210311094332.1"><vh>slide 4-4</vh></v>
 </v>
 <v t="leo.20210310222925.1"><vh>slide 4</vh></v>
-<v t="leo.20210310230227.1"><vh>slide 5</vh></v>
+<v t="leo.20210310230227.1"><vh>slide 5</vh>
+<v t="leo.20210311150229.1"><vh>newHeadline</vh></v>
+<v t="leo.20210311150230.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20210311151549.1"><vh>slide 6</vh>
+<v t="leo.20210311151544.1"><vh>newHeadline</vh></v>
+<v t="leo.20210311151857.1"><vh>newHeadline</vh></v>
+</v>
 <v t="leo.20210310230228.1"><vh>slide 6</vh></v>
 </v>
 </v>
@@ -185,12 +199,7 @@ vertical: body pane on the botton</t>
 
 </t>
 <t tx="leo.20200818170535.1">&lt;section&gt;
-    &lt;h3&gt;2021-協同產品設計實習-stage1-ag21&lt;/h3&gt;
-&lt;p&gt;&lt;span&gt;專題題目:籃球機&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;組員倉儲:&lt;a href="https://github.com/40823152/cd2021"&gt;40823152&lt;/a&gt;&amp;nbsp;網站:&lt;a href="https://40823152.github.io/cd2021/content/index.html"&gt;40823152&lt;/a&gt;&lt;a href="https://github.com/40823152/cd2021"&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;a href="https://github.com/40823153/cd2021"&gt;40823153&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;a href="https://40823153.github.io/cd2021/content/index.html"&gt;40823153&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;a href="https://github.com/40823154/cd2021"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;40823154&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;a href="https://40823154.github.io/cd2021/content/index.html"&gt;40823154&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
+  @others
 &lt;/section&gt;
 
 </t>
@@ -201,32 +210,89 @@ vertical: body pane on the botton</t>
 &lt;p&gt;產品介紹&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210310225213.1">&lt;section&gt;
- &lt;p&gt;動機: &lt;/p&gt;
-  &lt;p&gt;因為市面上的籃球機只能手動，所以我們改善了勞力部分，
-  成為自動化的投籃機。&lt;/p&gt;
-&lt;p&gt; 製作規劃&lt;/p&gt;
-&lt;p&gt;第二周:繪製完零件圖，並且用CoppeliaSim模擬投球。&lt;/p&gt;
-&lt;p&gt;第三周:修改第二周的問題並改善完成籃球機。&lt;/p&gt;
-&lt;p&gt;第四周:報告討論&lt;/p&gt;
+  @others
 &lt;/section&gt;</t>
 <t tx="leo.20210310225326.1">&lt;section&gt;
- &lt;h2&gt;工作分配&lt;/h2&gt;
- 
-&lt;/section&gt;</t>
-<t tx="leo.20210310230059.1">&lt;section&gt;
- &lt;p&gt;動機: &lt;/p&gt;
-  &lt;p&gt;因為市面上的籃球機只能手動，所以我們改善了勞力部分，
-  成為自動化的投籃機。&lt;/p&gt;
-&lt;p&gt; 製作規劃&lt;/p&gt;
-&lt;p&gt;第二周:繪製完零件圖，並且用CoppeliaSim模擬投球。&lt;/p&gt;
-&lt;p&gt;第三周:修改第二周的問題並改善完成籃球機。&lt;/p&gt;
-&lt;p&gt;第四周:報告討論&lt;/p&gt;
+&lt;h3&gt;工作分配&lt;/h3&gt;
+
+&lt;p&gt;籃球機構思與設計，coppeliaSim 模擬&lt;/p&gt;
+&lt;p&gt;組員:40823152&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/y-ztP91swPs"&gt;&lt;/iframe&gt;&lt;/p&gt;
+
 &lt;/section&gt;</t>
 <t tx="leo.20210310230227.1">&lt;section&gt;
-&lt;p&gt;製作問題&lt;/p&gt;
+ @others
 &lt;/section&gt;</t>
 <t tx="leo.20210310230228.1">&lt;section&gt;
 &lt;p&gt;產品介紹&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210311093655.1">&lt;section&gt;
+    &lt;h3&gt;2021-協同產品設計實習-stage1-ag21&lt;/h3&gt;
+&lt;p&gt;&lt;span&gt;專題題目:籃球機&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;組員倉儲:&lt;a href="https://github.com/40823152/cd2021"&gt;40823152&lt;/a&gt;&amp;nbsp;網站:&lt;a href="https://40823152.github.io/cd2021/content/index.html"&gt;40823152&lt;/a&gt;&lt;a href="https://github.com/40823152/cd2021"&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;a href="https://github.com/40823153/cd2021"&gt;40823153&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;a href="https://40823153.github.io/cd2021/content/index.html"&gt;40823153&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;a href="https://github.com/40823154/cd2021"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;40823154&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;a href="https://40823154.github.io/cd2021/content/index.html"&gt;40823154&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20210311093949.1">&lt;section&gt;
+ &lt;h2&gt;動機: &lt;/h2&gt;
+  &lt;p&gt;因為市面上的籃球機只能手動，所以我們改善了勞力部分，
+  成為自動化的投籃機。&lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="leo.20210311093957.1">&lt;section&gt;
+&lt;h2&gt; 製作規劃&lt;/h2&gt;
+&lt;p&gt;第二周:繪製完零件圖，並且用CoppeliaSim模擬投球。&lt;/p&gt;
+&lt;p&gt;第三周:修改第二周的問題並改善完成籃球機。&lt;/p&gt;
+&lt;p&gt;第四周:報告討論&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210311094328.1">&lt;section&gt;
+&lt;h3&gt;工作分配&lt;/h3&gt;
+
+&lt;p&gt;籃球機構設計，inentor 繪圖 &lt;/p&gt;
+&lt;p&gt;組員:40823153&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="350" src="https://40823152.github.io/cd2021ag21/images/%E7%B1%83%E7%90%83%E6%A9%9F4.jpg" width="700"/&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210311094329.1">&lt;section&gt;
+&lt;h3&gt;工作分配&lt;/h3&gt;
+&lt;p&gt;ppt製作，autocad繪圖:40823154&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210311094332.1">&lt;section&gt;
+&lt;p&gt;工作流程&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img alt="" height="500" src="./../images/3-11.png" width="300"/&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210311150229.1">&lt;section&gt;
+&lt;h3&gt;問題-轉軸問題&lt;/h3&gt;
+
+&lt;p&gt;擊球桿無法正常轉動&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/0M_tD8KESUo"&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="leo.20210311150230.1">&lt;section&gt;
+
+&lt;h3&gt;擊球桿正常轉動&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;解決方法:&lt;/p&gt;
+&lt;p&gt;繪圖人員修改尺寸即可正常轉動&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/-VlbX3ozOzo"&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="leo.20210311151544.1">&lt;section&gt;
+&lt;h3&gt;問題-擊球問題&lt;/h3&gt;
+&lt;p&gt;最初的版本使用coppeliaSim模擬球無法飛遠或高。&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/hd8GKX4021g"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://youtu.be/Q4Pp-IBUFH0"&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210311151549.1">&lt;section&gt;
+ @others
+&lt;/section&gt;</t>
+<t tx="leo.20210311151857.1">&lt;section&gt;
+&lt;p&gt;問題解決:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1JCbYZZ1qowhfNIoPHNiW1OdA1sAjoruD/view?usp=sharing"&gt;coppeliaSim模擬:版本2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;繪圖人員調整及球棒前端的角度，使用coppeliaSim模擬球可以飛遠且有一定的高度。&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/edDqTcfTbC8"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
