@@ -34,12 +34,17 @@
 </v>
 <v t="leo.20210310222925.1"><vh>slide 4</vh></v>
 <v t="leo.20210310230227.1"><vh>slide 5</vh>
-<v t="leo.20210311150229.1"><vh>newHeadline</vh></v>
-<v t="leo.20210311150230.1"><vh>newHeadline</vh></v>
+<v t="leo.20210311150229.1"><vh>slide 5-1</vh></v>
+<v t="leo.20210311150230.1"><vh>slide 5-2</vh></v>
 </v>
 <v t="leo.20210311151549.1"><vh>slide 6</vh>
-<v t="leo.20210311151544.1"><vh>newHeadline</vh></v>
-<v t="leo.20210311151857.1"><vh>newHeadline</vh></v>
+<v t="leo.20210311151544.1"><vh>slide 6-1</vh></v>
+<v t="leo.20210311151857.1"><vh>slide 6-2</vh></v>
+</v>
+<v t="leo.20210314173516.1"><vh>slide 7</vh>
+<v t="leo.20210314173528.1"><vh>slide 7-1</vh></v>
+<v t="leo.20210314182220.1"><vh>slide 7-2</vh></v>
+<v t="leo.20210314173626.1"><vh>slide 7-3</vh></v>
 </v>
 <v t="leo.20210310230228.1"><vh>slide 6</vh></v>
 </v>
@@ -253,15 +258,15 @@ vertical: body pane on the botton</t>
 
 &lt;p&gt;籃球機構設計，inentor 繪圖 &lt;/p&gt;
 &lt;p&gt;組員:40823153&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="350" src="https://40823152.github.io/cd2021ag21/images/%E7%B1%83%E7%90%83%E6%A9%9F4.jpg" width="700"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="350" src="https://40823152.github.io/stage1-ag21/images/%E7%B1%83%E7%90%83%E6%A9%9F4.jpg" width="700"/&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210311094329.1">&lt;section&gt;
 &lt;h3&gt;工作分配&lt;/h3&gt;
-&lt;p&gt;ppt製作，autocad繪圖:40823154&lt;/p&gt;
+&lt;p&gt;ppt製作，inentor 工程圖:40823154&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210311094332.1">&lt;section&gt;
 &lt;p&gt;工作流程&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;img alt="" height="500" src="./../images/3-11.png" width="300"/&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img alt="" height="500" src="/images/3-11 (1).png" alt" width="300"/&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210311150229.1">&lt;section&gt;
 &lt;h3&gt;問題-轉軸問題&lt;/h3&gt;
@@ -281,7 +286,7 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;</t>
 <t tx="leo.20210311151544.1">&lt;section&gt;
 &lt;h3&gt;問題-擊球問題&lt;/h3&gt;
-&lt;p&gt;最初的版本使用coppeliaSim模擬球無法飛遠或高。&lt;/p&gt;
+&lt;p&gt;影片為版本一使用coppeliaSim模擬球無法飛遠或高。&lt;/p&gt;
 &lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/hd8GKX4021g"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://youtu.be/Q4Pp-IBUFH0"&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
@@ -289,10 +294,26 @@ vertical: body pane on the botton</t>
  @others
 &lt;/section&gt;</t>
 <t tx="leo.20210311151857.1">&lt;section&gt;
-&lt;p&gt;問題解決:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1JCbYZZ1qowhfNIoPHNiW1OdA1sAjoruD/view?usp=sharing"&gt;coppeliaSim模擬:版本2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;繪圖人員調整及球棒前端的角度，使用coppeliaSim模擬球可以飛遠且有一定的高度。&lt;/p&gt;
+&lt;h3&gt;問題解決:&lt;/h3&gt;
+&lt;p&gt;影片為版本二，使用coppeliaSim模擬球可以飛遠且有一定的高度。&lt;/p&gt;
 &lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/edDqTcfTbC8"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
+<t tx="leo.20210314173516.1">&lt;section&gt;
+ @others
+&lt;/section&gt;</t>
+<t tx="leo.20210314173528.1">&lt;section&gt;
+&lt;h3&gt;coppeliaSim 比例問題&lt;/h3
+&lt;p&gt;影片為版本三，但是使用coppeliaSim模擬球擊不遠。&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" data-mce-fragment="1" src="https://www.youtube.com/embed/pDRwLqA17p8"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210314173626.1">&lt;section&gt;
+&lt;h3&gt;問題解決:&lt;/h3&gt;
+&lt;p&gt;影片為版本四，使第三版本尺寸放大10倍，球即可進入籃框。&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" data-mce-fragment="1" src="https://www.youtube.com/embed/y-ztP91swPs"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;/section&gt;</t>
+<t tx="leo.20210314182220.1"></t>
 </tnodes>
 </leo_file>
