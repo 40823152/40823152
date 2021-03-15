@@ -18,35 +18,40 @@
 <v t="leo.20200818165413.1"><vh>body</vh>
 <v t="leo.20200818170041.1"><vh>reveal div</vh>
 <v t="leo.20200818170222.1"><vh>slides div</vh>
-<v t="leo.20200818170328.1"><vh>slide 1</vh></v>
-<v t="leo.20200818170535.1"><vh>slide 2</vh>
-<v t="leo.20210311093655.1"><vh>slide 2-1</vh></v>
+<v t="leo.20200818170535.1"><vh>slide 1</vh>
+<v t="leo.20210311093655.1"><vh>slide 1-1</vh></v>
 </v>
-<v t="leo.20210310225213.1"><vh>slide 3</vh>
-<v t="leo.20210311093949.1"><vh>slide 3-1</vh></v>
-<v t="leo.20210311093957.1"><vh>slide 3-2</vh></v>
+<v t="leo.20210310225213.1"><vh>slide 2</vh>
+<v t="leo.20210311093949.1"><vh>slide 2-1</vh></v>
+<v t="leo.20210311093957.1"><vh>slide 2-2</vh></v>
 </v>
-<v t="leo.20210310222406.1"><vh>slide 4</vh>
-<v t="leo.20210310225326.1"><vh>slide 4-1</vh></v>
-<v t="leo.20210311094328.1"><vh>slide 4-2</vh></v>
-<v t="leo.20210311094329.1"><vh>slide 4-3</vh></v>
-<v t="leo.20210311094332.1"><vh>slide 4-4</vh></v>
+<v t="leo.20210310222406.1"><vh>slide 3</vh>
+<v t="leo.20210310225326.1"><vh>slide 3-1</vh></v>
+<v t="leo.20210311094328.1"><vh>slide 3-2</vh></v>
+<v t="leo.20210311094329.1"><vh>slide 3-3</vh></v>
+<v t="leo.20210311094332.1"><vh>slide 3-4</vh></v>
 </v>
-<v t="leo.20210310222925.1"><vh>slide 4</vh></v>
-<v t="leo.20210310230227.1"><vh>slide 5</vh>
-<v t="leo.20210311150229.1"><vh>slide 5-1</vh></v>
-<v t="leo.20210311150230.1"><vh>slide 5-2</vh></v>
+<v t="leo.20210310230227.1"><vh>slide 4</vh>
+<v t="leo.20210311150229.1"><vh>slide 4-1</vh></v>
+<v t="leo.20210311150230.1"><vh>slide 4-2</vh></v>
 </v>
-<v t="leo.20210311151549.1"><vh>slide 6</vh>
-<v t="leo.20210311151544.1"><vh>slide 6-1</vh></v>
-<v t="leo.20210311151857.1"><vh>slide 6-2</vh></v>
+<v t="leo.20210311151549.1"><vh>slide 5</vh>
+<v t="leo.20210311151544.1"><vh>slide 5-1</vh></v>
+<v t="leo.20210311151857.1"><vh>slide 5-2</vh></v>
+<v t="leo.20210315212204.1"><vh>slide 5-3</vh></v>
+<v t="leo.20210315212724.1"><vh>slide 5-3</vh></v>
 </v>
-<v t="leo.20210314173516.1"><vh>slide 7</vh>
-<v t="leo.20210314173528.1"><vh>slide 7-1</vh></v>
-<v t="leo.20210314182220.1"><vh>slide 7-2</vh></v>
-<v t="leo.20210314173626.1"><vh>slide 7-3</vh></v>
+<v t="leo.20210314173516.1"><vh>slide 6</vh>
+<v t="leo.20210314173528.1"><vh>slide 6-1</vh></v>
+<v t="leo.20210314182220.1"><vh>slide 6-2</vh></v>
+<v t="leo.20210314173626.1"><vh>slide 6-3</vh></v>
 </v>
-<v t="leo.20210310230228.1"><vh>slide 6</vh></v>
+<v t="leo.20210310230228.1"><vh>slide 7</vh>
+<v t="leo.20210315210847.1"><vh>newHeadline</vh></v>
+<v t="leo.20210315210848.1"><vh>newHeadline</vh></v>
+<v t="leo.20210315210849.1"><vh>newHeadline</vh></v>
+<v t="leo.20210315210849.2"><vh>newHeadline</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -192,17 +197,6 @@ vertical: body pane on the botton</t>
 &lt;div class="slides"&gt;
     @others
 &lt;/div&gt;</t>
-<t tx="leo.20200818170328.1">&lt;section&gt;
-    &lt;a href="https://revealjs.com"&gt;
-        &lt;img src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo"&gt;
-    &lt;/a&gt;
-    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
-    &lt;p&gt;
-        &lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; and &lt;a href="https://github.com/hakimel/reveal.js/graphs/contributors"&gt;contributors&lt;/a&gt;&lt;/small&gt;
-    &lt;/p&gt;
-&lt;/section&gt;
-
-</t>
 <t tx="leo.20200818170535.1">&lt;section&gt;
   @others
 &lt;/section&gt;
@@ -210,9 +204,6 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20210310222406.1">&lt;section&gt;
   @others
-&lt;/section&gt;</t>
-<t tx="leo.20210310222925.1">&lt;section&gt;
-&lt;p&gt;產品介紹&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210310225213.1">&lt;section&gt;
   @others
@@ -230,7 +221,7 @@ vertical: body pane on the botton</t>
  @others
 &lt;/section&gt;</t>
 <t tx="leo.20210310230228.1">&lt;section&gt;
-&lt;p&gt;產品介紹&lt;/p&gt;
+@others
 &lt;/section&gt;</t>
 <t tx="leo.20210311093655.1">&lt;section&gt;
     &lt;h3&gt;2021-協同產品設計實習-stage1-ag21&lt;/h3&gt;
@@ -315,5 +306,45 @@ vertical: body pane on the botton</t>
 
 &lt;/section&gt;</t>
 <t tx="leo.20210314182220.1"></t>
+<t tx="leo.20210315210847.1">&lt;section&gt;
+&lt;h2&gt;版本一&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/drive/folders/1_VhLBBrMjL90N9OTufHESV0Iaxei1O1j?usp=sharing"&gt;籃球機 初代&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1VKoaZRUqZyUw8BrNMYHxvAL0ydmwwzsy/view?usp=sharing"&gt;&lt;span&gt;coppeliaSim模擬:&lt;/span&gt;版本0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img caption="false" height="350" src="https://40823152.github.io/stage1-ag21/images/%E7%B1%83%E7%90%83%E6%A9%9F%E5%88%9D%E4%BB%A31.jpg" width="700"&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210315210848.1">&lt;section&gt;
+&lt;h2&gt;版本二&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/drive/folders/1aQpgnYPlhykg4OiwivtIGSgfcZ78cIsp?usp=sharing"&gt;籃球機 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1JCbYZZ1qowhfNIoPHNiW1OdA1sAjoruD/view?usp=sharing"&gt;coppeliaSim模擬:版本2&lt;/a&gt;&lt;span id="__caret" mce-data-marked="1"&gt;_&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;繪圖人員調整及球棒前端的角度，使用coppeliaSim模擬球可以飛遠且有一定的高度。&lt;/span&gt;&lt;span id="__caret"&gt;_&lt;/span&gt;&lt;img alt="" height="350" src="https://40823152.github.io/stage1-ag21/images/%E7%B1%83%E7%90%83%E6%A9%9F2.jpg" width="700"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210315210849.1">&lt;section&gt;
+&lt;h2&gt;版本三&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/drive/folders/1mRIFlDJfi8JPJOuYiqUS0xwlG5lDGWj_?usp=sharing"&gt;籃球機 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/14haIIBy6w6O-ibAfjcegHB8HMBOPhP3y/view?usp=sharing"&gt;coppeliaSim模擬:版本3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;版本3 球無法進入籃框。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="350" src="https://40823152.github.io/stage1-ag21/images/%E7%B1%83%E7%90%83%E6%A9%9F3.jpg" width="700"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210315210849.2">&lt;section&gt;
+&lt;h2&gt;版本四&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/drive/folders/1GhgbMJbaKh2e0Zb0xjlF-sdGHJVy5C8D?usp=sharing"&gt;籃球機 4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1vWfztZrbkWKIqTI-B5sKLRIM5YI0OJST/view?usp=sharing"&gt;coppeliaSim模擬:版本4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;版本四可以讓球進入籃框&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="350" src="https://40823152.github.io/stage1-ag21/images/%E7%B1%83%E7%90%83%E6%A9%9F4.jpg" width="700"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210315212204.1">&lt;section&gt;
+&lt;h3&gt;版本2 擊球點圖片&lt;/h3&gt;
+&lt;p&gt;一開始擊球點位置&lt;/p&gt;
+&lt;p&gt;&lt;img caption="false" height="430" src="https://40823152.github.io/cd2021/images/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202021-03-07%20161647.png" width="800"&gt;&lt;/p&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20210315212724.1">&lt;section&gt;
+&lt;h3&gt;版本2 擊球點圖片&lt;/h3&gt;
+&lt;p&gt;球沿著斜面跑到頂點擊出，球即可飛高且遠。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="433" src="https://40823152.github.io/cd2021/images/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202021-03-07%20161743.png" width="800"&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
 </tnodes>
 </leo_file>
