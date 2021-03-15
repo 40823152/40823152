@@ -257,7 +257,7 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;</t>
 <t tx="leo.20210311094332.1">&lt;section&gt;
 &lt;p&gt;工作流程&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;img alt="" height="500" src="/images/3-11 (1).png" alt" width="300"/&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img alt="" height="500" src="./../images/3-11 (1).png" alt" width="300"/&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210311150229.1">&lt;section&gt;
 &lt;h3&gt;問題-轉軸問題&lt;/h3&gt;
