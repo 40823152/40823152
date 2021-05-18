@@ -612,7 +612,71 @@ for i in range(len(data)):#設i迴圈的次數為data的長度
 <p>40823117|Website:<a href="https://40823117.github.io/cd2021">40823117</a>|Repository:<a href="https://github.com/40823117/cd2021">40823117</a></p>
 <p>40823129|Website:<a href="https://40823129.github.io/cd2021">40823129</a>|Repository:<a href="https://github.com/40823129/cd2021">40823129</a></p>
 <p>40823149|Website:<a href="https://40823149.github.io/cd2021">40823149</a>|Repository:<a href="https://github.com/40823149/cd2021">40823149</a></p>
-<p>40823153|Website:<a href="https://40823153.github.io/cd2021">40823153</a>|Repository:<a href="https://github.com/40823153/cd2021">40823153</a></p><h1>Bug</h1>
+<p>40823153|Website:<a href="https://40823153.github.io/cd2021">40823153</a>|Repository:<a href="https://github.com/40823153/cd2021">40823153</a></p>
+<h2>W12</h2>
+<h3>stage2-ag12 python keyboard</h3>
+<p>使用python keyboard 來操控投籃機</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/bIYhdN1THGY" width="560"></iframe></p>
+<p></p>
+<p></p>
+<hr/>
+<p>程式碼:</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import sim as vrep
+import sys
+import keyboard
+# child threaded script: 
+#simExtRemoteApiStart(19999)
+ 
+vrep.simxFinish(-1)
+ 
+clientID = vrep.simxStart('127.0.0.1', 19999, True, True, 5000, 5)
+errorCode,left_motor_handle=vrep.simxGetObjectHandle(clientID,'Revolute_joint',vrep.simx_opmode_oneshot_wait)
+
+if clientID!= -1:
+    print("Connected to remote server")
+    while True:
+        try:
+            if keyboard.is_pressed('up'):
+                  vrep.simxSetJointTargetVelocity(clientID,left_motor_handle,-16, vrep.simx_opmode_oneshot_wait)
+                  print('up ') 
+            if keyboard.is_pressed('down'):     
+                  vrep.simxSetJointTargetVelocity(clientID,left_motor_handle,1, vrep.simx_opmode_oneshot_wait)
+                  print('down')
+            if keyboard.is_pressed('space'):
+                  vrep.simxSetJointTargetVelocity(clientID,left_motor_handle,0, vrep.simx_opmode_oneshot_wait)
+                  print('space')
+                  
+            else:
+                pass
+        except:
+            break
+else: 
+    print('Connection not successful')
+    sys.exit('Could not connect')
+ 
+ 
+  
+ 
+if errorCode == -1:  
+    print('Can not find left or right motor')
+    sys.exit()
+ </pre>
+<hr/>
+<p><a href="https://www.itranslater.com/qa/details/2582431821631849472">參考網址</a></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">#需要:
+pip3 install keyboard</pre>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import keyboard  # using module keyboard
+while True:  # making a loop
+    try:  # used try so that if user pressed other than the given key error will not be shown
+        if keyboard.is_pressed('q'):  # if key 'q' is pressed 
+            print('You Pressed A Key!')
+            break  # finishing the loop
+        else:
+            pass
+    except:
+        break  # if user pressed a key other than the given key the loop will break</pre>
+<p><br/><br/><br/></p>
+<p></p><h1>Bug</h1>
 <p></p>
 <h2>Wsgi.py 打不開</h2>
 <p></p>
