@@ -8,7 +8,7 @@ pages:
     paths:
     - public
   only:
-  -main
+   - main
   #- master
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
