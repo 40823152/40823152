@@ -2679,7 +2679,67 @@ end
 &lt;/CoppeliaSim&gt;
 </pre>
 <hr/>
+<p>結論:</p>
+<p>1.使用此方法去定位，無法用在<span>FANUC_M710iC_50 </span>機械手臂身上。</p>
+<p>2.要使用<span> DH parameter 去定位。</span></p>
+<p>3.<a href="https://github.com/mdecourse/cd2021/blob/main/downloads/stage3/FANUC_M710iC_50/FANUC_M710iC_50.xml">使用DH parameter 定義的軸</a>，目前還看不懂。</p>
 <p></p>
+<h2>W14</h2>
+<h3>fanuc_m710ic_50_pick_and_place</h3>
+<p></p>
+<p>機械手臂組裝完，並且操作一個軸</p>
+<p><a href="https://drive.google.com/file/d/13e2EznCzF7gir6iFzle8XA9OYuV-ihyi/view?usp=sharing">ttt檔案</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/r2UzHAxNLU8" width="560"></iframe></p>
+<p>操控一個軸的程式碼</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import sim as vrep
+ import sys
+i zmport keyboard
+import math
+import time
+# child threaded script: 
+#simExtRemoteApiStart(19999)
+ 
+vrep.simxFinish(-1)
+ 
+clientID = vrep.simxStart('127.0.0.1', 19999, True, True, 5000, 5)
+errorCode,left_motor_handle=vrep.simxGetObjectHandle(clientID,'Revolute_joint',vrep.simx_opmode_oneshot_wait)
+
+
+if clientID!= -1:
+    print("Connected to remote server")
+    while True: 
+        try:
+            if keyboard.is_pressed('up'):
+                  vrep.simxSetJointTargetVelocity(clientID,left_motor_handle,-0.1, vrep.simx_opmode_oneshot_wait)
+                  print('up')
+            if keyboard.is_pressed('down'):     
+                  vrep.simxSetJointTargetVelocity(clientID,left_motor_handle,0.1, vrep.simx_opmode_oneshot_wait)
+                  print('down')
+            if keyboard.is_pressed('space'):
+                  vrep.simxSetJointTargetVelocity(clientID,left_motor_handle,0 , vrep.simx_opmode_oneshot_wait)
+                  print('space')
+            if keyboard.is_pressed('z'):
+                 vrep.simxSetJointTargetVelocity(clientID,left_motor_handle,0 , vrep.simx_opmode_oneshot_wait)
+                 print('break ')
+                 break 
+            else:
+                pass
+        except:
+            break
+else: 
+    print('Connection not successful')
+    sys.exit('Could not connect')
+ 
+ 
+  
+ 
+if errorCode == -1:  
+    print('Can not find left or right motor')
+    sys.exit()
+     </pre>
+<p></p>
+<p>參考影片:</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/7zCVTKOZAz8" width="560"></iframe></p>
 <p></p><h1>Bug</h1>
 <p></p>
 <h2>Wsgi.py 打不開</h2>
