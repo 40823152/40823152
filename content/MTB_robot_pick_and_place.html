@@ -133,9 +133,54 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">stage2-ag12 python keyboard << <a href='stage2-ag12 python keyboard.html'>Previous</a> <a href='gutlab操作.html'>Next</a> >> gutlab操作<br /><h1>W13</h1>
+    <div id="tipue_search_content">W15 << <a href='W15.html'>Previous</a> <a href='MTB_robot_pick_and_place delete GUI.html'>Next</a> >> MTB_robot_pick_and_place delete GUI<br /><h1>MTB_robot_pick_and_place</h1>
+<p>觀摩老師的程式，做出鍵盤控制轉動的機構。</p>
+<p><a href="https://drive.google.com/file/d/1nzP8zeguvYnV4z99nfiVn7i0hLKMs7JK/view?usp=sharing">ttt</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/HeazGElLXFM" width="560"></iframe></p>
+<pre class="brush:lua;auto-links:false;toolbar:false" contenteditable="false">function sysCall_init()
+    -- do some initialization here
+     axis1=sim.getObjectHandle('MTB_axis1')
+     axis1=sim.getObjectHandle('MTB_axis1')
+     rotation1 = 0
+     deg = math.pi/180
+     --sim.sJointTargetVelocity(joint,5.5)
+     
+     
+    
+     
+
+end
+
+function sysCall_actuation()
+ message,auxiliaryData=sim.getSimulatorMessage()
+ if (message==sim.message_keypress) then
+      if (auxiliaryData[1]==2010) then
+      rotation1 = rotation1 + 5*deg
+      sim.setJointPosition(axis1, rotation1)
+      end
+      if (auxiliaryData[1]==2009) then 
+      rotation1 = rotation1 - 5*deg
+      sim.setJointPosition(axis1, rotation1)
+      end
+      if (auxiliaryData[1]==2008) then
+      sim.setJointTargetVelocity(joint,1)
+      end
+ end    
+
+
+end
+function sysCall_sensing()
+    -- put your sensing code here
+end
+
+function sysCall_cleanup()
+    -- do some clean-up here
+end
+
+-- See the user manual or the available code snippets for additional callback functions and details
+</pre>
 <p></p>
-<br />stage2-ag12 python keyboard << <a href='stage2-ag12 python keyboard.html'>Previous</a> <a href='gutlab操作.html'>Next</a> >> gutlab操作</div>
+<br />W15 << <a href='W15.html'>Previous</a> <a href='MTB_robot_pick_and_place delete GUI.html'>Next</a> >> MTB_robot_pick_and_place delete GUI</div>
         
     <!-- footer -->
       <div class="container">

@@ -2742,11 +2742,68 @@ if errorCode == -1:
 <p>參考影片:</p>
 <iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/7zCVTKOZAz8" width="560"></iframe>
 <h3>fanuc_m710ic_50_pick_and_place add suction ped</h3>
+<p>新增吸盤(<a href="https://40823214.github.io/cd2021/content/W13%20Pick%20and%20Place.html">使用40823214的吸盤檔案</a>)</p>
+<p></p>
 <p><a href="https://drive.google.com/file/d/1YAuCnOc5WTJD8Ne-Qe5wbcFh4FFZUqQH/view?usp=sharing">ttt檔案</a></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/8IPCbT_EjQY" width="560"></iframe></p>
+<p></p><h2>W15</h2>
+<h3>MTB_robot_pick_and_place</h3>
+<p>觀摩老師的程式，做出鍵盤控制轉動的機構。</p>
+<p><a href="https://drive.google.com/file/d/1nzP8zeguvYnV4z99nfiVn7i0hLKMs7JK/view?usp=sharing">ttt</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/HeazGElLXFM" width="560"></iframe></p>
+<pre class="brush:lua;auto-links:false;toolbar:false" contenteditable="false">function sysCall_init()
+    -- do some initialization here
+     axis1=sim.getObjectHandle('MTB_axis1')
+     axis1=sim.getObjectHandle('MTB_axis1')
+     rotation1 = 0
+     deg = math.pi/180
+     --sim.sJointTargetVelocity(joint,5.5)
+     
+     
+    
+     
+
+end
+
+function sysCall_actuation()
+ message,auxiliaryData=sim.getSimulatorMessage()
+ if (message==sim.message_keypress) then
+      if (auxiliaryData[1]==2010) then
+      rotation1 = rotation1 + 5*deg
+      sim.setJointPosition(axis1, rotation1)
+      end
+      if (auxiliaryData[1]==2009) then 
+      rotation1 = rotation1 - 5*deg
+      sim.setJointPosition(axis1, rotation1)
+      end
+      if (auxiliaryData[1]==2008) then
+      sim.setJointTargetVelocity(joint,1)
+      end
+ end    
+
+
+end
+function sysCall_sensing()
+    -- put your sensing code here
+end
+
+function sysCall_cleanup()
+    -- do some clean-up here
+end
+
+-- See the user manual or the available code snippets for additional callback functions and details
+</pre>
 <p></p>
-<p></p>
-<p></p><h1>Bug</h1>
+<h3>MTB_robot_pick_and_place delete GUI</h3>
+<p><a href="https://drive.google.com/file/d/1dPgfWG8Kbv7vJ5rZaRNb3v2OIKrQgC9I/view?usp=sharing">.ttt</a></p>
+<p>就算把程式碼都刪掉還是會出現GUI介面</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/9TItms-kllw" width="560"></iframe></p>
+<hr/>
+<p>方法:</p>
+<p><a href="https://drive.google.com/file/d/1-jU112JkSED-Xz8IxkmO0-5owO2Nyhed/view?usp=sharing">xml</a></p>
+<p><a href="https://drive.google.com/file/d/1ShAKNkTPkYFAsMZjTrG3irq1b5D2p3UC/view?usp=sharing">ttt</a></p>
+<p>將檔案轉成XML檔即可解決。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/HjsZn6UYuQQ" width="560"></iframe></p><h1>Bug</h1>
 <p></p>
 <h2>Wsgi.py 打不開</h2>
 <p></p>
