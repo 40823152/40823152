@@ -133,13 +133,118 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">W3 << <a href='W3.html'>Previous</a> <a href='小組網站(共同維護).html'>Next</a> >> 小組網站(共同維護)<br /><h1>製作簡報</h1>
-<p><a href="https://40823152.github.io/cd2021/reveal/index.html#/">reval</a></p>
-<p>使用leo可打開reval.lio即可做出簡報，將html的內容放到裡面保存，即可完成以下圖示。</p>
-<p><img caption="false" height="429" src="./../images/螢幕擷取畫面 2021-03-15 202936.png" width="800"/></p>
-<p></p>
-<p><img alt="" height="432" src="./../images/螢幕擷取畫面 2021-03-15 203502.png" width="800"/></p>
-<br />W3 << <a href='W3.html'>Previous</a> <a href='小組網站(共同維護).html'>Next</a> >> 小組網站(共同維護)</div>
+    <div id="tipue_search_content">MTB_robot_pick_and_place delete GUI << <a href='MTB_robot_pick_and_place delete GUI.html'>Previous</a> <a href='Bug.html'>Next</a> >> Bug<br /><h1>Movie subtite</h1>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/IKOGwoJ2HLk" width="560"></iframe></p>
+<p><span>We saw this simple two-link robot in the previous lecture about forward kinematics.</span></p>
+<p>我們在上一堂關於正向運動學看到簡單的二連桿機構。</p>
+<p><span>The tooltip pose of this robot is described simply by two numbers, the coordinates x and y with respect to the world coordinate frame.</span></p>
+<p>該機構提供工具提示由兩個簡單數字描述，相對於<span>x</span>與<span>y</span>遵守世界坐標系。</p>
+<p><span>So</span>，<span>the problem here is that given x and y</span>，<span> we want to determine the joined angles, Q1 and Q2.</span></p>
+<p>所以，這裡的問圖是給予<span>x</span>和<span>y</span>，我們想要確定連接角<span>Q1</span>與<span>Q2</span>。</p>
+<p><span>The solution that we’re going to follow in this particular section is a geometric one.</span></p>
+<p>我們遵從特定幾何一來解決這個問題。</p>
+<p><span>We</span>’<span>re going to start with a simple piece of construction</span>。</p>
+<p>我們將從一個簡單的結構開始。</p>
+<p><span>We’re going to overlay the red triangle on the top of our robot.</span></p>
+<p>我們將在我們的機構覆蓋紅色三角形。</p>
+<p><span>We know that the end point coordinate is x, y, so the vertical height or the triangle is y, the horizontal width is x.</span></p>
+<p>我們知道最終的座標是<span>x,y</span>，所以三角形垂直的高度是<span>y</span>，水平的寬度是<span>x</span>。</p>
+<p><span>And, using Pythagoras theorem, we can write r squared equals x squared plus y squared. </span></p>
+<p>且，使用畢氏定理，我們可以寫出<span>r^2=x^2+y^2</span>。</p>
+<p><span>So far, so easy,</span></p>
+<p>到目前為止很簡單。</p>
+<p><span>Now, we’re going to look at this triangle highlighted here in red and we want to determine the angle alpha. </span></p>
+<p>現在，我們將查看紅色三角形的高度和我們想要確定的α角度。</p>
+<p><span>In order to do that, we need to use the cosine rule.</span></p>
+<p>為了做到這樣，我們需要使用餘弦定理。</p>
+<p><span>And, if you’re a little rusty on the cosine rule, here is a bit of a refresher.</span></p>
+<p>然而，如果你對於餘弦定理有一點生疏，這裡有一點複習。</p>
+<p><span>We have an arbitrary triangle.</span></p>
+<p>我們有隨意的三角形。</p>
+<p><span>We don’t have to have any right angles in it and we’re going to label the length of this edge as A and the angle opposite that edge, we’re going to label as little a.</span></p>
+<p>我們的三角形中不必有任何的直角，我們將標記邊長<span>A</span>，邊長<span>A</span>對邊的角度標記為小<span>a</span>。</p>
+<p><span>And, we do the same for this edge and this angle, and this edge and this angle.</span></p>
+<p>然而，我們對邊長和角度做同樣的事情。<span>(</span>剩餘的邊長和角度去標記<span>)</span></p>
+<p><span>So, all together, the sides are labelled capitals A, B and C, and the angles are labelled little a, little b, and little c</span>。</p>
+<p>所以，總共是，邊標記大寫<span>A</span>、<span>B</span>、<span>C</span>與角標記的小<span>a</span>、<span>b</span>、<span>c</span>。</p>
+<p><span>So, the cosine rule is simply this relationship here.</span></p>
+<p>所以，餘弦定理在這裡是一種簡單的關係。<span>(A^2=B^2+C^2-2BCcos(a)</span></p>
+<p><span>It’s a bit like Pythagoras’ theorem except for this extra term on the end with the cos(a) in it.</span></p>
+<p>這有點像畢氏定理，除了最後這個而外項與<span>cos(a) </span>在裡面</p>
+<p><span>Now, let’s apply the cosine rule to the particular triangle we looked at a moment ago.</span></p>
+<p>現在，讓我們將餘弦定理用於我們目前看到的特定三角形。</p>
+<p><span>It’s pretty straightforward to write down this particular relationship.</span></p>
+<p>寫下這種關係非常簡單。</p>
+<p><span>We can isolate the term cos alpha which gives us the angle alpha that we’re interested in.</span></p>
+<p>我們可以分離出<span>cos</span>α，它提供我們感興趣的角度α。</p>
+<p><span>And, it’s defined in terms of the constant like lengths, A1 and A2 and the position of the end effector, x and y,</span></p>
+<p>然而，它是根據恆定鍵接長度<span>A1</span>和<span>A2</span>以及末端執行<span>x</span>和<span>y</span>。</p>
+<p><span>We can write the simple relationship between the angles alpha and Q2.</span></p>
+<p>我們可以寫出α與<span>Q2</span>之間簡單的關係。</p>
+<p><span>And, we known from the shape of the cosine function that cos of Q2 must be equal to negative of cos alpha.</span></p>
+<p>而且，我們從餘弦函數的形狀知道<span>Q2</span>的<span>cos</span>必須等於負的<span>cos</span>α。</p>
+<p><span>This time, let’s just write an expression for the cosine of the joined angle Q2.</span></p>
+<p>這一次，讓我們為連接角<span>Q2</span>的餘弦寫一個表達式。</p>
+<p><span>Now, we’re going to draw yet another red triangle and we’re going apply some simple trigonometry here.</span></p>
+<p>現在，我們要畫另一個紅色三角形，我們將應用一些簡單的三角函數在這裡。</p>
+<p><span>If we know Q2, then we know this length and this length of the red triangle.</span></p>
+<p>如果我們知道<span>Q2</span>，那我們就知道這個長度和這個宏三角形的長度。</p>
+<p><span>We can write this relationship for the sine of the joined angle Q2.</span></p>
+<p>我們可以為連接角<span>Q2</span>的正弦寫出這種關係。</p>
+<p><span>Now, we can consider this bigger triangle whose angle is beta and this side length of the triangle is given here in blue.</span></p>
+<p>現在，我們可以考慮更大的三角形，它的角是β，邊長是三角形給它藍色。</p>
+<p><span>And, the length of the other side of the triangle is this.</span></p>
+<p>並且，三角形另一邊的長度是這個。</p>
+<p><span>So, now we can write an expression for the angle beta in terms of these parameters here.</span></p>
+<p>所以，現在我們可以在此處根據這些參數編寫β角度的表達式。</p>
+<p><span>Going back to the red triangle that we drew earlier, we can establish a relationship between Q1 and the angle beta.</span></p>
+<p>回到之前畫的紅色三角形，我們可以建立<span>Q1</span>與β角之間的關係。</p>
+<p><span>Introduce yet another angle, this one gamma and we can write a relationship between the angle gamma and the tooltip coordinates x and y.</span></p>
+<p>引入另一個角度，這個γ，我們可以寫出γ角與工具提示座標<span>x</span>和<span>y</span>之間的關係。</p>
+<p><span>Now, we can write a simple relationship between the angles that we’re constructed, gamma and beta and the joined angle we’re interested in which is Q1.</span></p>
+<p>現在，我們可以寫出建構角度之間的簡單關係，γ和β以及我們感興趣的連接角<span>Q1</span>。</p>
+<p><span>And, total relationship looks something like this.</span></p>
+<p>而且，所有的關係就是這樣。</p>
+<p><span>Quite a complex relationship, it gives us the angle of joined one, that’s Q1 in terms of the end effector coordinates y and x, and a bunch of constants, a1 and a2, and it’s also a function of the second joint angle, Q2.</span></p>
+<p>相當複雜的關係，它給我們連接的角度，就<span>Q1</span>而言末端執行器座標<span>y</span>和<span>x</span>，以及一堆長量<span>a1</span>和<span>a2</span>，它也是第二關節<span>Q2</span>角度的函數。</p>
+<p><span>So, let’s summarize what it is that we have derived here.</span></p>
+<p>所以，讓我們總結一下我們在這裡得出的結論。</p>
+<p><span>We have an expression for the cosine of Q2 and we have an expression for Q1.</span></p>
+<p>我們有<span>Q2</span>的餘弦表達式和<span>Q1</span>的表達式。</p>
+<p><span>Now, the cosine function is symmetrical about 0.</span></p>
+<p>現在，餘弦函數是關於<span>0</span>的對稱。</p>
+<p><span>So, if we know the value of the cosine of Q2, then there are two possible solutions, a positive angle and a negative angle.</span></p>
+<p>所以，如果我們知道<span>Q2</span>的餘弦值，那我們有兩種可行的解決方案，一個正角與一個負角。</p>
+<p><span>We’re going to explicitly choose the positive angle, which means that I can write this expression here.</span></p>
+<p>我們將明確選擇正角，這意味我可以寫出這個表達式這裡。</p>
+<p><span>And now, we have what we call the inverse kinematic solution for this two-link robot.</span></p>
+<p>現在，我們有了這個雙連桿機構的逆運動學解決方案。</p>
+<p><span>We have an expression for the two joined angles, Q1 and Q2 in terms of the end effector pose x and y, and a bunch of constants.</span></p>
+<p>我們有兩個連接角<span>Q1</span>和<span>Q2</span>的末端執行器姿態表達式<span>x</span>和<span>y</span>，以及一堆常量。</p>
+<p><span>You notice that the two equations are not independent.</span></p>
+<p>你注意到這兩個方程式不是獨立的。</p>
+<p><span>The equation for Q1, in fact, depends on the solution for Q2.</span></p>
+<p>事實上，<span>Q1</span>的方程式取決於<span>Q2</span>的解。</p>
+<p><span>In the case, Q2 is negative and we’re going to write the solution for Q2 with a negative sign in front of the inverse cosine.</span></p>
+<p>在這種情況下，<span>Q2</span>是負數，我們將用負數來編寫<span>Q2</span>的解決方案符號在反餘閒前面。</p>
+<p><span>Now, we need to solve for Q1, so we’re going to introduce this particular red triangle, that angle beta that we solved previously, and the angle gamma which is defined in terms of y and x.</span></p>
+<p>現在，我們需要求解<span>Q1</span>，所以我們將要介紹這個特殊的紅色三角形，我們之前求解的β角，以及用術語定義的γ角度<span>y</span>和<span>x</span>。</p>
+<p><span>Now we write a slightly different relationship between Q1, gamma and beta, different to what we had before.</span></p>
+<p>現在，我們在<span>Q1</span>、γ和β之間寫出略有不同的關係，不同於我們以前有過。</p>
+<p><span>There’s a change of sign involved.</span></p>
+<p>涉及到符號的變化。</p>
+<p><span>Then, we can substitute all that previous equation and com up with this expression for Q1.</span></p>
+<p>然後，我們可以替代之前的所有等式並得出這個表達式對於<span>Q1</span>。</p>
+<p><span>Again, there is a change of sign here.</span></p>
+<p>同樣，這裡的符號發生了變化。</p>
+<p><span>Previously, this was a negative sign.</span></p>
+<p>以前，這裡是一個負面信號。</p>
+<p><span>And, here in summary form is the solution for the inverse kinematics of our two-like robot when it is in this particular configuration, where Q2 is negative.</span></p>
+<p>並且，這裡以總結形式是我們的雙連桿逆運動學的解決方案，機器人處於此特定裝置，其中<span>Q2</span>為負。</p>
+<p><span>Let’s compare the two solutions, the case where Q2 is positive and the case where Q2 is negative.</span></p>
+<p>讓我們比較這兩種解決方案，<span>Q2</span>為政的形況和<span>Q2</span>為正的形況是否定的。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/eIZuz1XCd0w" width="560"></iframe></p>
+<p><span> </span></p><br />MTB_robot_pick_and_place delete GUI << <a href='MTB_robot_pick_and_place delete GUI.html'>Previous</a> <a href='Bug.html'>Next</a> >> Bug</div>
         
     <!-- footer -->
       <div class="container">
