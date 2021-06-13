@@ -133,9 +133,46 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">版本四 << <a href='版本四.html'>Previous</a> <a href='Stage2-product.html'>Next</a> >> Stage2-product<br /><h1>pdf</h1>
-<p>40823154 : <a href="https://drive.google.com/drive/u/1/my-drive">pdf</a> </p>
-<br />版本四 << <a href='版本四.html'>Previous</a> <a href='Stage2-product.html'>Next</a> >> Stage2-product</div>
+    <div id="tipue_search_content">MTB_robot add suction pad << <a href='MTB_robot add suction pad.html'>Previous</a> <a href='Bug.html'>Next</a> >> Bug<br /><h1>MTB_robot add IK</h1>
+<p><span>使用老師的逆運動學函式求出終點位置的位移，使MTB_robot在coppeliasim裡可以順利達到老師要求的位置</span></p>
+<p><a href="https://drive.google.com/file/d/1RZlXQc7s2S0KTHCrMFctCLGjw1CaQrey/view?usp=sharing">W16_exam.7z</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/0Y9bRtTjfm4" width="560"></iframe></p>
+<p>老師的程式</p>
+<pre class="brush:lua;auto-links:false;toolbar:false" contenteditable="false">-- The decimal point of number x is rounded to the nth place
+function round(x, n)
+    n = math.pow(10, n or 0)
+    x = x * n
+    if x &gt;= 0 then x = math.floor(x + 0.5) else x = math.ceil(x - 0.5) end
+    return x / n
+end
+ 
+-- radian to degree
+deg = 180/math.pi
+-- link 1 length
+a1 = 10
+-- link 2 length
+a2 = 10
+-- derivated based upon https://www.youtube.com/watch?v=IKOGwoJ2HLk&amp;t=311s
+function ik(x, y)
+    -- (x, y) need to be located inside the circle with radius a1+a2
+    if (x^2 + y^2) &lt;= (a1+ a2)^2 then
+        q2 = -math.acos((x^2+y^2-a1^2-a2^2)/(2*a1*a2))
+        q1 = math.atan2(y, x) + math.atan2((a2*math.sin(q2)), (a1+a2*math.cos(q2)))
+        return {round(q1*deg, 4), round(q2*deg, 4)}
+    else
+        print("Over range!")
+        -- end the script execution
+        os.exit()
+    end
+end
+ 
+theta = ik(15, 1)
+ 
+print(theta[1], theta[2])</pre>
+<p><a href="https://c.runoob.com/compile/66">lua 編譯網站:</a></p>
+<p></p>
+<p></p>
+<p></p><br />MTB_robot add suction pad << <a href='MTB_robot add suction pad.html'>Previous</a> <a href='Bug.html'>Next</a> >> Bug</div>
         
     <!-- footer -->
       <div class="container">
