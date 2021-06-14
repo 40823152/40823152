@@ -133,54 +133,12 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">W15 << <a href='W15.html'>Previous</a> <a href='MTB_robot_pick_and_place delete GUI.html'>Next</a> >> MTB_robot_pick_and_place delete GUI<br /><h1>MTB_robot_pick_and_place</h1>
-<p>觀摩老師的程式，做出鍵盤控制轉動的機構。</p>
-<p><a href="https://drive.google.com/file/d/1nzP8zeguvYnV4z99nfiVn7i0hLKMs7JK/view?usp=sharing">ttt</a></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/HeazGElLXFM" width="560"></iframe></p>
-<pre class="brush:lua;auto-links:false;toolbar:false" contenteditable="false">function sysCall_init()
-    -- do some initialization here
-     axis1=sim.getObjectHandle('MTB_axis1')
-     axis1=sim.getObjectHandle('MTB_axis1')
-     rotation1 = 0
-     deg = math.pi/180
-     --sim.sJointTargetVelocity(joint,5.5)
-     
-     
-    
-     
-
-end
-
-function sysCall_actuation()
- message,auxiliaryData=sim.getSimulatorMessage()
- if (message==sim.message_keypress) then
-      if (auxiliaryData[1]==2010) then
-      rotation1 = rotation1 + 5*deg
-      sim.setJointPosition(axis1, rotation1)
-      end
-      if (auxiliaryData[1]==2009) then 
-      rotation1 = rotation1 - 5*deg
-      sim.setJointPosition(axis1, rotation1)
-      end
-      if (auxiliaryData[1]==2008) then
-      sim.setJointTargetVelocity(joint,1)
-      end
- end    
-
-
-end
-function sysCall_sensing()
-    -- put your sensing code here
-end
-
-function sysCall_cleanup()
-    -- do some clean-up here
-end
-
--- See the user manual or the available code snippets for additional callback functions and details
-</pre>
+    <div id="tipue_search_content">MTB_robot add IK << <a href='MTB_robot add IK.html'>Previous</a> <a href='Bug.html'>Next</a> >> Bug<br /><h1>MTB_robo use require</h1>
+<p>將2到4的步驟新增require操作MTB_robot，並簡單介紹使用方法</p>
+<p><a href="https://drive.google.com/file/d/1IO7JuyYKL4ZT48hqPlX2fGAe-DpHPQh8/view?usp=sharing">W16_exam.7z</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/0Lxmp-umL6U" width="560"></iframe></p>
 <p></p>
-<br />W15 << <a href='W15.html'>Previous</a> <a href='MTB_robot_pick_and_place delete GUI.html'>Next</a> >> MTB_robot_pick_and_place delete GUI</div>
+<p><a href="https://github.com/mdecourse/cd2021/tree/main/downloads/stage3/MTB_robot">老師的leo</a></p><br />MTB_robot add IK << <a href='MTB_robot add IK.html'>Previous</a> <a href='Bug.html'>Next</a> >> Bug</div>
         
     <!-- footer -->
       <div class="container">
