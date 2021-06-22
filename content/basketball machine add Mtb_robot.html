@@ -134,10 +134,12 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">W17 << <a href='W17.html'>Previous</a> <a href='basketball machine finish.html'>Next</a> >> basketball machine finish<br /><h1>basketball machine add Mtb_robot</h1>
-<p>籃球機增加Mtb_robot取放球</p>
+<p>籃球機增加Mtb_robot取放球，還沒有計算位置，所以無法準確放到<span>(x=1.002,y=0)點上。</span></p>
 <p><a href="https://drive.google.com/drive/folders/19oA0L4XKWgHceePwxZYM9uNy5OEfeJ1D?usp=sharing">3.0</a></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/PJvU3ltEIQU" width="560"></iframe></p>
-<p>使用老師的ik程式，使Mtb_robot放球到最終的位置。</p>
+<hr/>
+<p>使用老師的ik程式，使Mtb_robot放球到最終的位置(x=1.002,y=0)</p>
+<p>但是把MTB_robot放到籃球機的場景裡，不能直接在程式裡打ik<span>(1.002,0)，因為MTB_robot沒有在座標原點上，所以要減掉MTB_robot的座標(0.7496,-2.3502)，得出(0.2506,2.3502)，才會移動到正確的座標。</span></p>
 <p><a href="https://drive.google.com/drive/folders/18JCy5nQVQVZHZJbtqyFpsmPzWHPFuYAH?usp=sharing">3.1</a></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/pw5BNGOnEzA" width="560"></iframe></p>
 <p></p>
@@ -171,8 +173,7 @@ end
   
 theta = ik(0.2506, 2.3502)
   
-print(theta[1], theta[2])</pre>
-<br />W17 << <a href='W17.html'>Previous</a> <a href='basketball machine finish.html'>Next</a> >> basketball machine finish</div>
+print(theta[1], theta[2])</pre><br />W17 << <a href='W17.html'>Previous</a> <a href='basketball machine finish.html'>Next</a> >> basketball machine finish</div>
         
     <!-- footer -->
       <div class="container">
